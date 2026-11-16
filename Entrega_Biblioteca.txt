@@ -1,0 +1,6 @@
+DESENVOLVIMENTO DE API COM FASTAPI — BIBLIOTECA
+
+Repositório com o código-fonte completo e as instruções de execução:
+https://github.com/JpZafa/biblioteca-api
+
+O projeto permite listar o acervo e consultar livros pelo identificador, com validação de dados e tratamento de livro não encontrado.
