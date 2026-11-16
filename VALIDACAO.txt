@@ -1,0 +1,20 @@
+Validação executada em 16/11/2026, com Python 3.12.
+Comando: python -m unittest discover -s tests -v
+
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_acervo_vazio (test_api.BibliotecaTests.test_acervo_vazio) ... ok
+test_consulta_cada_livro (test_api.BibliotecaTests.test_consulta_cada_livro) ... ok
+test_identificadores_invalidos_retornam_422 (test_api.BibliotecaTests.test_identificadores_invalidos_retornam_422) ... ok
+test_listagem_nao_expoe_colecao_interna (test_api.BibliotecaTests.test_listagem_nao_expoe_colecao_interna) ... ok
+test_listagem_retorna_cinco_livros_validos (test_api.BibliotecaTests.test_listagem_retorna_cinco_livros_validos) ... ok
+test_livro_inexistente_retorna_404 (test_api.BibliotecaTests.test_livro_inexistente_retorna_404) ... ok
+test_modelo_rejeita_dados_invalidos (test_api.BibliotecaTests.test_modelo_rejeita_dados_invalidos) ... ok
+test_modelo_remove_espacos_externos (test_api.BibliotecaTests.test_modelo_remove_espacos_externos) ... ok
+test_openapi_documenta_respostas_e_validacao (test_api.BibliotecaTests.test_openapi_documenta_respostas_e_validacao) ... ok
+test_repositorio_lanca_excecao_de_dominio (test_api.BibliotecaTests.test_repositorio_lanca_excecao_de_dominio) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.052s
+
+OK
